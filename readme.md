@@ -49,5 +49,5 @@ To overwrite all stages and restart the whole script use ``-RunAgain``.
 You may use this script without explicit download:
 
 ```powershell
-iwr https://raw.githubusercontent.com/warrenit/msoffice-removal-tool/main/msoffice-removal-tool.ps1 -OutFile msoffice-removal-tool.ps1; powershell -ExecutionPolicy Bypass .\msoffice-removal-tool.ps1
+iwr https://raw.githubusercontent.com/warrenit/msoffice-removal-tool/main/msoffice-removal-tool.ps1 -OutFile msoffice-removal-tool.ps1; powershell -ExecutionPolicy Bypass .\msoffice-removal-tool.ps1 -InstallOffice365 -SuppressReboot -Force
 ```
